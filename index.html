@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="page">
+        <div class="wrapper">
+            <header class="header">
+                <div class="header__inner">
+                    <div class="header__logo">
+                        <p class="header__logo-text"><span class="header__logo-text--orange">sun</span>moon</p>
+                    </div>
+                </div>
+            </header>
+            <section class="form">
+                <div class="form__inner">
+                    <form class="form__item" name="form">
+                        <fieldset class="form__fieldset">
+                            <label for="city" class="form__label">Type the city:</label>
+                            <div class="form__list">
+                                <input type="text" class="form__input" id="city" name="text" placeholder="Enter the city">
+                                <button class="form__btn" type="submit">Enter</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </section>
+            <section class="main-desc">
+                <div class="main-desk__inner">
+                    <div class="main-desc__title">
+                        <img src="https://openweathermap.org/img/w/01n.png" alt="weather" class="main-desc__title-img">
+                        <p class="main-desc__title-text">Kyiv</p>
+                        <p class="main-desc__title-degree">1℃</p>
+                    </div>
+                    <div class="main-desc__item">
+                        <p class="main-desc__item-text">3 March</p>
+                    </div>
+                </div>
+            </section>
+            <section class="desc">
+                <div class="desc__inner">
+                    <ul class="desc__list">
+                        <li class="desc__item">
+                            <p class="desc__item-text"><span>Humidity:</span>81%</p>
+                            <p class="desc__item-text"><span>Pressure</span>1014 hPa</p>
+                            <p class="desc__item-text"><span>Wind:</span>8 km/h SSE</p>
+                        </li>
+                        <li class="desc__item">
+                            <p class="desc__item-text desc__item-text--min">10:03</p>
+                        </li>
+                        <li class="desc__item">
+                            <p class="desc__item-text"><span>Temp:</span> 3 ℃</p>
+                            <p class="desc__item-text"><span>Feel like:</span> -4 ℃</p>
+                            <p class="desc__item-text"><span>Cloudy: </span>40%</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
