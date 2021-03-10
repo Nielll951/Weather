@@ -113,5 +113,5 @@ function onSubmitFormHandler(e){
     desc.remove();
     cityTitle = input.value.toUpperCase();
     form.reset();
-    getData(cityTitle);
+    getDate(cityTitle);
 }
